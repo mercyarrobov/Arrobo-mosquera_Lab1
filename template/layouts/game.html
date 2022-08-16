@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Submitted by Brent Robertson -->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Aprende los números</title>
+	<meta name="description" content="Created a drag and drop game.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
+</head>
+
+<body>
+	<header>
+		<h1>Aprende los números del 1 al 5</h1>
+		<h2>Entrenamiento</h2>
+	</header>
+	<main>
+		<audio src=" " class="audio">Audio</audio>
+		<div class="container-div">
+			<div id="drag1" class="drag-item" data-sound="../static/sound/uno.mp3" onclick="animaleSound(this)">
+				<img id="animalnumber"
+				src="https://th.bing.com/th/id/OIP.RimV3K4QYioftW4NyKTcZgHaHa?pid=ImgDet&rs=1"
+				draggable="true" height="140" width="190" /></div>
+			<div id="drop1" class="drop-item">
+				<img id="animalnumber"
+				src="https://th.bing.com/th/id/R.236d150900fe42418949255d4e5bd177?rik=Ueokur4mBjmGCg&riu=http%3a%2f%2fwww.businesspassioncuisine.fr%2fwa_p_albums%2fp_album_kapk4n3l0%2fkapk01ee62fbxk%2fnumber-1_1_(1).jpg&ehk=25hkCOb%2bzIyACBx432bjcrREYhuN13LwUcGDGil%2f80I%3d&risl=&pid=ImgRaw&r=0"
+				draggable="true" height="140" width="190" />
+			</div>
+		</div>
+		<div class="container-div">
+			<div id="drag2" class="drag-item" data-sound="../static/sound/dos.mp3" onclick="animaleSound(this)">
+				<img id="animalnumber"
+				src="https://st3.depositphotos.com/1067257/14468/v/950/depositphotos_144685297-stock-illustration-human-cartoon-hand-showing-two.jpg"
+				draggable="true" height="140" width="190"/>
+			</div>
+			<div id="drop2" class="drop-item">
+				<img id="animalnumber"
+				src="https://st2.depositphotos.com/5389310/9481/i/450/depositphotos_94813506-stock-photo-3d-plastic-blue-number-2.jpg"
+				draggable="true" height="140" width="190" />
+			</div>
+		</div>
+		<div class="container-div">
+			<div id="drag3" class="drag-item" data-sound="../static/sound/tres.mp3" onclick="animaleSound(this)">
+				<img id="animalnumber"
+				src="https://st3.depositphotos.com/1067257/14467/v/950/depositphotos_144679431-stock-illustration-human-cartoon-hand-showing-three.jpg"
+				draggable="true" height="140" width="190"/>
+			</div>
+			<div id="drop3" class="drop-item">
+				<img id="animalnumber"
+				src="https://th.bing.com/th/id/OIP.1Kml4W8gTRA8ha2p2TM5HQHaHa?pid=ImgDet&w=800&h=800&rs=1"
+				draggable="true" height="140" width="190" />
+			</div>
+		</div>
+		<div class="container-div">
+			<div id="drag4" class="drag-item" data-sound="../static/sound/cuatro.mp3" onclick="animaleSound(this)">
+				<img id="animalnumber"
+				src="https://i.pinimg.com/736x/38/53/54/385354573d2afd7c4689dec86fc4d8c9.jpg"
+				draggable="true" height="140" width="190"/>
+			</div>
+			<div id="drop4" class="drop-item">
+				<img id="animalnumber"
+				src="https://th.bing.com/th/id/OIP.NCILA2GFxW6UAb2MKyUArwHaHa?pid=ImgDet&w=650&h=650&rs=1"
+				draggable="true" height="140" width="190" />
+			</div>
+		</div>
+		<div class="container-div">
+			<div id="drag5" class="drag-item" data-sound="../static/sound/cinco.mp3" onclick="animaleSound(this)">
+				<img id="animalnumber"
+				src="https://i.pinimg.com/736x/6f/e5/1a/6fe51a1990dddf60eec4835b1a15850f.jpg"
+				draggable="true" height="140" width="190"/>
+			</div>
+			<div id="drop5" class="drop-item">5
+				<img id="animalnumber"
+				src="https://media.istockphoto.com/photos/golden-yellow-wood-number-5-or-five-isolated-white-backgroundone-of-picture-id854051584?k=6&m=854051584&s=170667a&w=0&h=e-yIpYxvF9N1mQegV9n2KVuftnSIycq4n8LydYfPPA8="
+				draggable="true" height="140" width="190" />
+			</div>
+		</div>
+		<div id="next" class="disabled btn" role="button">
+			<a class="nav-link" href="/evalua"><img
+				src="https://i.ibb.co/RCsfBNk/siguiente.png" height="120" width="180" />
+		</div>
+	</main>
+
+</body>
+<script type="text/javascript" src="../static/js/index.js" ></script>
+<script src="../static/js/sound.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+
+</html>

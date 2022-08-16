@@ -1,0 +1,84 @@
+/* Submitted by Brent Robertson */
+
+body {
+	text-align: center;
+	background-image: url(https://i.postimg.cc/6Q1Y7x4d/fonfo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.container-div {
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	margin: 0 5px;
+}
+
+.drag-item , .drop-item{
+	border-radius: 0.3em;
+	border: 2px solid #678CDC;
+	height: 200px;
+	width: 250px;
+	position: absolute;
+}
+
+.drag-item {
+	background-color: #678CDC;
+	font-size: 1.2rem;
+	line-height: 50px;
+	text-align: center;
+	z-index: 10;
+}
+
+.drop-item {
+	top: 350px;
+}
+
+#animalnumber{
+	margin-top: 30px;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	border-radius: 0.3em;
+	margin: 200px auto;
+	
+}
+
+#check-answers {
+	background-color: #0be938;
+}
+
+#check-answers.disabled {
+	background-color: #f1f1f1;
+}
+
+#check-answers:hover {
+	cursor: pointer;
+}
+
+#check-answers.disabled:hover {
+	cursor: not-allowed;
+}
+
+#response {
+	margin-top: 5px;
+	width: 500px;
+	height: 500px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#play-again {
+	cursor: pointer;
+}
