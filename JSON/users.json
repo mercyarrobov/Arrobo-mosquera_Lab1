@@ -1,0 +1,49 @@
+[{
+  "_id": "1234567890",
+  "username": "sample",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEwJHhCWEhUS1JteVhHS2FqMHpIdHlIUS5RczNBemhFclc5ZlhocjNJL0haZXBURFIuaFBOWnpT",
+      "subType": "00"
+    }
+  },
+  "apellido": "asdasd",
+  "nombre": "test1",
+  "rol_id": "f8a84ab4-3e91-4227-8710-ed6e78a68ae7"
+},{
+  "_id": "2334567890",
+  "username": "carlos",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEwJGRqRHQxNDJud3l5T2tQaVlzSnlsT09XbmFmQVhiWVBlUzVtdUl6dGdTZ1FVM3FqWkZNQktp",
+      "subType": "00"
+    }
+  },
+  "apellido": "Vera",
+  "nombre": "Carlos",
+  "rol_id": "6a3aed68-1d25-4245-9fc6-93c17f446afb"
+},{
+  "_id": "2300357890",
+  "username": "juan",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEwJEhLM2JETlRqT0pWcTYyak11dC5WSi5OTFRUeW9KdTdLSS9WOEZjTW5yTGVPM1c3blhjVFBD",
+      "subType": "00"
+    }
+  },
+  "apellido": "Castillo",
+  "nombre": "Juan",
+  "rol_id": "b68f8c05-84c0-47be-8934-de39d54ddc23"
+},{
+  "_id": "2324877890",
+  "username": "julio",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEwJEhPMUxLOXg1ZWxTblN6MzV0M2Y3SnVaMzkxS29DVFo2MnpKRlMzamJqUzJkbzZSRm45UWdD",
+      "subType": "00"
+    }
+  },
+  "apellido": "Castro",
+  "nombre": "Julio",
+  "rol_id": "fc42fa7c-25a5-484e-941b-e8f11794b1d0"
+}]
