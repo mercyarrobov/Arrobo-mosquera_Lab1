@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<style>
+  .height {
+    height: 100vh;
+    background: rgb(95, 166, 198);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .padding {
+    padding: 1.5rem;
+  }
+
+  .reduce-width {
+    width: 60%;
+    justify-self: center;
+  }
+</style>
+
+<body class="d-flex height">
+  <form class="container col-4 bg-white card padding">
+    <div class="container d-flex justify-content-center mb-4">
+      <img src="../static/images/logotipo.jpg" class="d-flex w-50 text-center" alt="">
+    </div>
+    <div class="form-group">
+      <h3 class="text-center">Admin</h3>
+      <label for="exampleInputEmail1">Id</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese el id" required>
+      <label for="exampleInputEmail1">Nombre</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese nombre" required>
+      <label for="exampleInputEmail1">Apellido</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese apellido" required>
+      <label for="exampleInputEmail1">Usuario</label>
+      <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su usuario" required>
+    </div>
+    <div class="form-group ">
+      <label for="exampleInputPassword1">Contraseña</label>
+      <input type="password" class="form-control" name="password" id="exampleInputPassword1"
+        placeholder="Ingrese su contraseña" required>
+      <small id="pass-error" class="form-text text-muted"></small>
+    </div>
+    <div class="dropdown">
+      <h4 class=>Roles</h4>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Rol
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Estudiante</a>
+        <a class="dropdown-item" href="#">Docente</a>
+        <a class="dropdown-item" href="#">Administrador</a>
+      </div>
+    </div>
+    <h4 class="">Permisos</h4>
+    <div class="form-check mb-3">
+      <input class="form-check-input" id="flexCheck1" type="checkbox" checked>
+      <label class="form-check-label" for="flexCheck1"><span class="fst-italic pl-1">Crear usuarios</span></label>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" id="flexChec2" type="checkbox">
+      <label class="form-check-label" for="flexChec2"><span class="fst-italic pl-1">Asignar roles</span></label>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" id="flexCheck3" type="checkbox">
+      <label class="form-check-label" for="flexCheck3"><span class="fst-italic pl-1">Crear cliclo
+          académico</span></label>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" id="flexCheck4" type="checkbox">
+      <label class="form-check-label" for="flexCheck4"><span class="fst-italic pl-1">Crear paralelos</span></label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-5">Guardar</button>
+  </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+  </script>
+</body>
+
+</body>
+
+</html>
